@@ -64,8 +64,8 @@ aside{
         background-color:tomato;
     }
     label{
-        padding: 10px;
-        margin: 10px;
+        /* padding: 10px; */
+        /* margin: 10px; */
 
     }
 
@@ -85,7 +85,9 @@ aside{
         bottom: 0;
         height: 100px;
         background-color: #94ccc9;
-        margin: 10;  }
+        margin: 10;  
+        align-items: center;
+    }
 
 
  footer h2{
@@ -107,7 +109,8 @@ footer #logo{
 .articleImage{
           width: 100%;
           border-radius: 5px;
-          height:200px;
+          height:300px;
+          object-fit: cover;
 
       }
  

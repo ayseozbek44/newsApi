@@ -2,45 +2,22 @@ const search=document.querySelector('#search');
 const popul=document.querySelector('#byPopularity');
 const date=document.querySelector('#byDate');
 const dateOf30DaysAgo = new Date('2020-09-22').toISOString();
-
-
-    function callnews(){
-        
-        if(search.value == ""){
-            var url = 'http://newsapi.org/v2/everything?'+
-            `from=${dateOf30DaysAgo}`+
-            `sortBy=${sortKey}&`+
-            `apiKey=58d0bf5708804fe2b13d74d97ede0373`;
-
-        }
-        else{
-            var url = 'http://newsapi.org/v2/everything?'+
-            `from=${dateOf30DaysAgo}&`+
-            `q=${search.value}&`+
-            `sortBy=${sortKey}&`+
-            `apiKey=58d0bf5708804fe2b13d74d97ede0373`;   
-        }
-        fetch(url)
-            .then(response => response.json())
-            .then(json => console.log(json))
-            .catch(error => console.log('Authorization failed : ' + error.message));
-
-}
+const today = new Date(new Date().toLocaleDateString()).toISOString()
+console.log(today)
+console.log(dateOf30DaysAgo)
 
 
     document.getElementById('searchButton').addEventListener('click', () => {
        
-        if(document.querySelector("#byDate").checked){
-            console.log(search.value);
-             let sortKey = "publishedAt"
+        if(document.querySelector("#byDate").checked){  
             var url = 'http://newsapi.org/v2/everything?'+
             `from=${dateOf30DaysAgo}&`+
             `q=${search.value}&`+
-            `sortBy=${sortKey}&`+
-            `apiKey=58d0bf5708804fe2b13d74d97ede037`;   
+            `sortBy=publishedAt&`+
+            `apiKey=58d0bf5708804fe2b13d74d97ede0373`;  
             fetch(url)
             .then(response => response.json())
-            .then(json => console.log(json))
+            .then(json => showNews(json))
             .catch(error => console.log('Authorization failed : ' + error.message));
           
   }
@@ -60,22 +37,31 @@ const dateOf30DaysAgo = new Date('2020-09-22').toISOString();
             .catch(error => console.log('Authorization failed : ' + error.message));
           
     }
-    else{
-        var url = 'http://newsapi.org/v2/everything?'+
-        `from=${dateOf30DaysAgo}&`+
-        `q=${search.value}&`+
-        `sortBy=${sortKey}&`+
-        `apiKey=58d0bf5708804fe2b13d74d97ede0373`; 
-    }
+    else;
          
  })
+
+ document.body.onload = ()=>{
+    console.log("========")
+    var url = 'http://newsapi.org/v2/top-headlines?'+
+    `country=us&` +
+    `apiKey=58d0bf5708804fe2b13d74d97ede0373`;  
+    fetch(url).then(response => response.json()).then(json => showNews(json))
+ }
 let showNews = (obj)=>{
     let section = document.querySelector("#news");
     articles = obj.articles;
+    section.innerHTML = "";
     for (const key in articles) {
-        console.log(articles[key])
-        section.innerHTML += `
-        <li id="anime"><h3>${articles[key].title}</h3><p>${articles[key].description}</p></li><li>${new Date(articles[key].publishedAt).toLocaleDateString()}</li>`
+        console.log(articles[key].source)
+        section.innerHTML += 
+        `<li class="articleContainer">
+                   <img class="articleImage" src="${articles[key].urlToImage}" alt="">
+                   <h3 class="articleHeadline">${articles[key].title}</h3>
+                   <h2 class="articleDate">${new Date(articles[key].publishedAt).toLocaleDateString()}</h2>
+                   <p>${articles[key].description}</p>
+               </li>
+               <br>`
        
 }
 }
