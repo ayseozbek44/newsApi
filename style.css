@@ -2,7 +2,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1rem;
 }
-​
+
 body{
 display: flex;
 flex-direction: column;
@@ -16,9 +16,9 @@ header{
     width: 100%;
     margin: 0 0 10px 0;
     border-bottom: 2px solid tomato;
-​
+
 }
-​
+
 #logo{
     height: 150px;
     margin-bottom: 0;
@@ -30,16 +30,15 @@ transform: scale(1.2);
 transition: 1s ease;
 }
 main{
-    display:flex;
+    display: flex;
     justify-content: space-between;
     min-height: 100vh;
-​
-​
+
 }
-​
+
 section{
     margin: 10px ;
-    flex-basis: 60%;
+    flex-basis: 80%;
 }
 section h1{
     font-size: 50px;
@@ -57,26 +56,27 @@ aside{
     text-align: center;
    height: 100%;
    box-shadow: 10px 10px 8px #888888;
-​
+   margin-top: 85px;
+
     }
-​
+
     button:hover{
         background-color:tomato;
     }
     label{
         padding: 10px;
         margin: 10px;
-​
+
     }
-​
-​
-​
+
+
+
     #search{
     height:30px;
     width: 70%;
-​
+
     }
-​
+
      footer{
          padding: 0 30px 0 30px;
         display: flex;
@@ -86,8 +86,8 @@ aside{
         height: 100px;
         background-color: #94ccc9;
         margin: 10;  }
-​
-​
+
+
  footer h2{
 	color: #fff;
 	bottom: 0;
@@ -98,19 +98,49 @@ aside{
     pointer-events: none;
     
 }
-​
- footer #logo{
+
+footer #logo{
      height: 80px;
     
       }
-​
+
+.articleImage{
+          width: 100%;
+          border-radius: 5px;
+          height:200px;
+
+      }
  
+ul{
+          display: inline;
+          list-style-type: none;
+      }
+li{
+          display: flex;
+          flex-direction: column;
+          box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+          border-radius: 5px;
+      }
+
+    .articleHeadline, .articleDate{
+          text-align: center;
+          margin: 3px;
+      }
+
+      .articleDate{
+          color:grey;
+          font-style: italic;
+
+      }
+      h1{
+          margin:0;
+      }
     @media (max-width: 800px) {
         main {
           flex-direction: column;
         }
         section{  flex-grow: 1;
-​
+
         }
         aside{
             flex-grow: 0;
