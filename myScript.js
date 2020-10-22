@@ -10,7 +10,7 @@ console.log(dateOf30DaysAgo)
     document.getElementById('searchButton').addEventListener('click', () => {
        
         if(document.querySelector("#byDate").checked){  
-            var url = 'http://newsapi.org/v2/everything?'+
+            var url = 'https://newsapi.org/v2/everything?'+
             `from=${dateOf30DaysAgo}&`+
             `q=${search.value}&`+
             `sortBy=publishedAt&`+
@@ -26,7 +26,7 @@ console.log(dateOf30DaysAgo)
             
             console.log(search.value);
 
-            var url = 'http://newsapi.org/v2/everything?'+
+            var url = 'https://newsapi.org/v2/everything?'+
             `from=${dateOf30DaysAgo}&`+
             `q=${search.value}&`+
             `apiKey=58d0bf5708804fe2b13d74d97ede0373`;   
@@ -43,7 +43,7 @@ console.log(dateOf30DaysAgo)
 
  document.body.onload = ()=>{
     console.log("========")
-    var url = 'http://newsapi.org/v2/top-headlines?'+
+    var url = 'https://newsapi.org/v2/top-headlines?'+
     `country=us&` +
     `apiKey=58d0bf5708804fe2b13d74d97ede0373`;  
     fetch(url).then(response => response.json()).then(json => showNews(json))
