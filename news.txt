@@ -1,0 +1,136 @@
+{
+"status": "ok",
+"totalResults": 10,
+-"articles": [
+-{
+-"source": {
+"id": "bbc-news",
+"name": "BBC News"
+},
+"author": "BBC News",
+"title": "Africa Live: AU condemns Nigeria protest violence amid calls for talks",
+"description": "The shooting of protesters draws condemnation as pressure grows for government to dialogue with protesters - and more.",
+"url": "http://www.bbc.co.uk/news/live/world-africa-47639452",
+"urlToImage": "https://m.files.bbci.co.uk/modules/bbc-morph-news-waf-page-meta/4.1.3/bbc_news_logo.png",
+"publishedAt": "2020-10-22T06:52:26.3362847Z",
+"content": "Human rights group Amnesty International says it has confirmed that the Nigerian\r\narmy and police killed at least 12 peaceful protesters at two\r\nlocations in Lagos on Tuesday.\r\nThousands of people pr… [+1131 chars]"
+},
+-{
+-"source": {
+"id": "bbc-news",
+"name": "BBC News"
+},
+"author": "BBC News",
+"title": "US Election 2020: Trump and Obama lock horns in rival rallies",
+"description": "Mr Obama liken his successor to a \"crazy uncle\", while Mr Trump mocks his old adversary.",
+"url": "http://www.bbc.co.uk/news/world-us-canada-54640576",
+"urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/F39A/production/_115026326_063950206.jpg",
+"publishedAt": "2020-10-22T03:22:20.1216366Z",
+"content": "media captionObama hits the campaign trail in his first in-person appearance supporting Joe Biden.\r\nUS President Donald Trump and his predecessor, Barack Obama, have directed blistering barbs at each… [+3957 chars]"
+},
+-{
+-"source": {
+"id": "bbc-news",
+"name": "BBC News"
+},
+"author": "BBC News",
+"title": "Australia aged care: Inquiry hears 50 sexual assaults happen each week",
+"description": "The widespread sexual abuse of elderly residents is a \"national shame\", a top inquiry hears.",
+"url": "http://www.bbc.co.uk/news/world-australia-54640306",
+"urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/15538/production/_115025378_gettyimages-158385972.jpg",
+"publishedAt": "2020-10-22T03:07:21.2324922Z",
+"content": "image copyrightGetty Images\r\nimage captionAustralia is holding a national inquiry into aged care providers\r\nAn estimated 50 sexual assaults occur each week across Australia's aged care sector, a nati… [+2574 chars]"
+},
+-{
+-"source": {
+"id": "bbc-news",
+"name": "BBC News"
+},
+"author": "BBC News",
+"title": "Biden or Trump? Persuading an undecided voter",
+"description": "Erica listens to her aunt and her friend make their cases for voting Joe Biden or Donald Trump.",
+"url": "http://www.bbc.co.uk/news/election-us-2020-54636473",
+"urlToImage": "https://ichef.bbci.co.uk/images/ic/400xn/p08vzntp.jpg",
+"publishedAt": "2020-10-22T02:52:19.8371838Z",
+"content": "Erica hasn't made up her mind yet on whether she's going to vote for Joe Biden or Donald Trump in the US election.\r\nHer aunt Kay is backing Biden, while her friend Senen is voting for Trump. \r\nWatch … [+79 chars]"
+},
+-{
+-"source": {
+"id": "bbc-news",
+"name": "BBC News"
+},
+"author": "BBC News",
+"title": "Canada's Trudeau survives latest confidence vote",
+"description": "The vote could have sent Canadians to the polls in a snap federal election.",
+"url": "http://www.bbc.co.uk/news/world-us-canada-54635712",
+"urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/755A/production/_115024003_gettyimages-1228097371.jpg",
+"publishedAt": "2020-10-22T02:37:21.5222695Z",
+"content": "image copyrightAFP via Getty Images\r\nCanadian Prime Minister Justin Trudeau and his minority Liberal government have avoided a potential snap election. \r\nThe Liberals survived a confidence vote in th… [+2713 chars]"
+},
+-{
+-"source": {
+"id": "bbc-news",
+"name": "BBC News"
+},
+"author": "BBC News",
+"title": "Lockdown: 'I cycled every street in my 5km radius'",
+"description": "Ben Loke cycled 1,371km whilst under Melbourne's tough restrictions.",
+"url": "http://www.bbc.co.uk/news/54626043",
+"urlToImage": "https://ichef.bbci.co.uk/images/ic/400xn/p08vznw1.jpg",
+"publishedAt": "2020-10-22T00:22:29.8934165Z",
+"content": "The Australian city of Melbourne has faced one of the world's longest and harshest lockdowns.\r\nTight restrictions included a 5km (3 mile) travel limit, sparking the trend \"burbing\": to cycle every ro… [+140 chars]"
+},
+-{
+-"source": {
+"id": "bbc-news",
+"name": "BBC News"
+},
+"author": "BBC News",
+"title": "Coronavirus: Spain passes one million Covid-19 cases",
+"description": "Spain is the first western European country and the sixth in the world to pass the landmark figure.",
+"url": "http://www.bbc.co.uk/news/world-europe-54638347",
+"urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/1074A/production/_115020476_tv063917776.jpg",
+"publishedAt": "2020-10-22T00:22:24.441648Z",
+"content": "image captionSpain is the sixth nation worldwide to record more than one million cases\r\nSpain has recorded more than one million coronavirus cases, becoming the first western European country to pass… [+2662 chars]"
+},
+-{
+-"source": {
+"id": "bbc-news",
+"name": "BBC News"
+},
+"author": "BBC News",
+"title": "Trump's lawyer Giuliani dismisses 'compromising' clip from new Borat film",
+"description": "Rudy Giuliani describes as a \"fabrication\" a scene appearing to show him with hands down his trousers.",
+"url": "http://www.bbc.co.uk/news/world-us-canada-54639876",
+"urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/11B04/production/_115025427_6d0ed9b0-c177-4363-beea-c4393a316c63.jpg",
+"publishedAt": "2020-10-22T00:22:22.7389466Z",
+"content": "image captionRudy Giuliani: \"At no time before, during, or after the interview was I ever inappropriate\"\r\nDonald Trump's lawyer Rudy Giuliani has dismissed as a \"complete fabrication\" a clip from a n… [+1919 chars]"
+},
+-{
+-"source": {
+"id": "bbc-news",
+"name": "BBC News"
+},
+"author": "BBC News",
+"title": "FBI says Iran and Russia have US voter information",
+"description": "Intelligence officials say Iran was behind threatening emails sent to Democrats earlier this week.",
+"url": "http://www.bbc.co.uk/news/election-us-2020-54640405",
+"urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/178C4/production/_115025469_gettyimages-1281525440.jpg",
+"publishedAt": "2020-10-22T00:22:17.7401912Z",
+"content": "image copyrightGetty Images\r\nimage captionMillions of Americans have already cast their ballots in early voting\r\nUS national security officials have reported Iran was responsible for sending threaten… [+723 chars]"
+},
+-{
+-"source": {
+"id": "bbc-news",
+"name": "BBC News"
+},
+"author": "BBC News",
+"title": "Pope Francis indicates support for same-sex 'civil unions'",
+"description": "\"They are children of God and have a right to a family,\" Pope Francis says in a new documentary.",
+"url": "http://www.bbc.co.uk/news/world-europe-54627625",
+"urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/0853/production/_115013120_40d095f4-eb30-4d48-8525-4bd935ea872d.jpg",
+"publishedAt": "2020-10-21T15:22:21.0792659Z",
+"content": "image captionPope Francis' statements are a departure from previous comments about LGBT rights\r\nPope Francis has said that he thinks same-sex couples should be allowed to have \"civil unions\".\r\nHe mad… [+1673 chars]"
+}
+]
+}
